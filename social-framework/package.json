@@ -1,0 +1,74 @@
+{
+  "name": "social-learning-framework",
+  "version": "1.0.0",
+  "description": "基于React + Supabase的社交学习框架",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --port 3000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --ext ts,tsx --fix",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "clean": "rm -rf dist node_modules/.vite",
+    "analyze": "vite-bundle-analyzer"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.3.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.0.2",
+    "framer-motion": "^12.9.2",
+    "sonner": "^2.0.2",
+    "zod": "^3.24.2",
+    "date-fns": "^3.6.0",
+    "lucide-react": "^0.344.0",
+    "react-hook-form": "^7.49.3",
+    "@hookform/resolvers": "^3.3.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-tsconfig-paths": "^5.1.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vitest": "^1.2.2",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/jest-dom": "^6.2.0",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.2.4",
+    "vite-bundle-analyzer": "^0.7.0"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "supabase",
+    "social",
+    "learning",
+    "education",
+    "framework"
+  ],
+  "author": "AI学习助手团队",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/social-learning-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/social-learning-framework/issues"
+  },
+  "homepage": "https://github.com/your-org/social-learning-framework#readme"
+}
